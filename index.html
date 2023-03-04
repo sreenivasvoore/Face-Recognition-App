@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Face Recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <center>
+      <div>
+    <h1>Face Recognition App</h1>
+    <hr>
+    <br>
+    <label>Can Recognize the Following Members:</label>
+    <div class="name_of_members">
+      <hr>
+      Mother
+      <hr>
+      Father
+      <hr>
+      Sister
+      <hr>
+      Brother
+      <hr>
+    </div>
+    <br>
+    <br>
+    <div id="Camera"></div>
+    <br>
+    <br>
+    <div id="Snapped_Picture"></div>
+    
+    <button onclick="Capture()" class="glyphicon glyphicon-camera" id="capture">Capture</button>
+    <br>
+    <br>
+    <button onclick="Identify()" class="glyphicon glyphicon-search" id="identify">Identify</button>
+    <br>
+    <br>
+    </div>  
+    </center>
+</body>
+</html>
